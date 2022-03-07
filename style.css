@@ -1,0 +1,89 @@
+body {
+  background-color: gray;
+}
+.header {
+  background-color: white;
+  width: 270px;
+  height: 150px;
+  text-align: center;
+  padding: 0 70px;
+  margin: auto;
+  color: red;
+  text-shadow: 2px 2px royalblue;
+}
+.item {
+  border: 6px solid red;
+  border-radius: 12px;
+  box-shadow: 7px 7px purple;
+}
+.block {
+  width: 200px;
+  height: 180px;
+  background-color: white;
+  text-shadow: 1px 1px purple;
+}
+
+img {
+  width: 180px;
+  height: 160px;
+}
+.mainSection {
+  border: 6px solid green;
+}
+.boxSection {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.leftTop {
+  margin-right: 850px;
+}
+button {
+  background-color: orange;
+}
+input {
+  text-align: center;
+  width: 70%;
+}
+
+.slideBar {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40%;
+  height: 10px;
+  left: 300px;
+  position: fixed;
+  top: 400px;
+  padding: 20px;
+  background-color: yellow;
+}
+.offerItem {
+  padding: 0 70px;
+  width: 50%;
+}
+
+.store {
+  width: 60%;
+  margin: auto;
+  background-color: green;
+  text-align: center;
+  border: 5px solid purple;
+  height: 400px;
+}
+.menu {
+  background-color: yellowgreen;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.gridTem {
+  align-items: center;
+  border-right: 4px solid green;
+}
+.otherItem {
+  background-color: yellowgreen;
+}
